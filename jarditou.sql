@@ -31,7 +31,7 @@ CREATE TABLE `commande` (
   `com_id` int(11) NOT NULL,,
   `com_dateCommande` date NOT NULL,
   `com_dateLivraison` date NOT NULL,
-  `com_etatCommande` varchar(25) NOT NULL,
+  `com_etatCommande` varchar(50) NOT NULL,
   `com_editionFacture` bit(1) DEFAULT NULL,
   `cli_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
