@@ -62,7 +62,7 @@ CREATE TABLE `fournisseur` (
 
 INSERT INTO `fournisseur` (`fourni_id`, `fourni_nom`, `fourni_adress`, `fourni_cp`, `fourni_ville`, `fourni_tel`, `fourni_mail`, `fourni_type`) VALUES
 (1, 'Point P', '10 rue Jean Jaures', '76400', 'Fecamp', NULL, NULL, NULL),
-(2, 'L'epicerie', '34, rue Jules Barny', '76400', 'Sainte Hélène Bondeville', NULL, NULL, NULL),
+(2, 'L epicerie', '34, rue Jules Barny', '76400', 'Sainte Hélène Bondeville', NULL, NULL, NULL),
 (3, 'L'Huitriere', '42, avenue Emile Zola', '14180', 'Honfleur', NULL, NULL, NULL),
 (4, 'Au paradis', '137, rue général Lagrue', '76400', 'Fecamp', NULL, NULL, NULL),
 (5, 'Chez Luigi', '69, rue de la poupée qui tousse', '76640', 'Le havre', NULL, NULL, NULL);
